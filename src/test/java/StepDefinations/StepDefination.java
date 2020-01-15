@@ -36,7 +36,7 @@ public class StepDefination extends Utils {
     Response response;
     RequestSpecification req;
     JsonPath js;
-    String place_id;
+    static String place_id;
 
 
     TestData data = new TestData();
@@ -92,4 +92,17 @@ public class StepDefination extends Utils {
         assertEquals(actualName,expectedName);
 
     }
+
+    @Given("DeletePlace PayLoad")
+    public void deleteplace_PayLoad() throws IOException {
+        // Write code here that turns the phrase above into concrete actions
+
+        res = given().spec((requestSpecification())).queryParam("place_id",place_id);
+
+    }
+
+
+
+
+
 }

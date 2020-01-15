@@ -28,4 +28,13 @@ public class TestData {
         addplace.setLocation(l);
         return addplace;
     }
+
+   /* public String deletePlacePayLoad(String placeId)
+    {
+        return "{ \n" +
+                "\n" +
+                "    \"place_id\":\""+placeId+"\"      \n" +
+                "\n" +
+                "} ";
+    }*/
 }
