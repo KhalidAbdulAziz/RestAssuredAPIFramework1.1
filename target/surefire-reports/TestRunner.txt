@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.389 sec <<< FAILURE!
+Verify if Place is being Succesfully added using AddPlaceAPI(Validating Place API's)  Time elapsed: 1.002 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\mkhalid\IdeaProjects\cucumbarproject\src\test\java\files\global.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at utils.Utils.getGlobalValue(Utils.java:34)
+	at utils.Utils.requestSpecification(Utils.java:21)
+	at StepDefinations.StepDefination.add_Place_Payload_with(StepDefination.java:47)
+	at ✽.Add Place Payload with "Khalid Aziz" "English" "DHA Phase 7"(file:src/test/resources/features/AddPlaceValidation:3)
+
+Verify if Delete Place functionality is working(Validating Place API's)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: C:\Users\mkhalid\IdeaProjects\cucumbarproject\src\test\java\files\global.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at utils.Utils.getGlobalValue(Utils.java:34)
+	at utils.Utils.requestSpecification(Utils.java:21)
+	at StepDefinations.StepDefination.deleteplace_PayLoad(StepDefination.java:100)
+	at ✽.DeletePlace PayLoad(file:src/test/resources/features/AddPlaceValidation:20)
+
