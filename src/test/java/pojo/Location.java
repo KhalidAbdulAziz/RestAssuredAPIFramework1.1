@@ -16,7 +16,7 @@ public class Location
     public double getLng() {
         return lng;
     }
-
+// saqib change
     public void setLng(double lng) {
         this.lng = lng;
     }
